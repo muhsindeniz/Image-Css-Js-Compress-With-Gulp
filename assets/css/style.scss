@@ -1,0 +1,58 @@
+@import "./veriable";
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,800&display=swap");
+
+.mb-95 {
+    margin-bottom: 95px;
+}
+.mb-6 {
+    margin-bottom: 6px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mr-50 {
+    margin-right: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.section {
+    margin: 65px 0;
+}
+
+.boxed-btn {
+    font-family: $font;
+    font-size: 15px;
+    font-weight: 500;
+    background: linear-gradient(to right, $pink-button 0%, #ff6357 100%);
+    color: $white;
+    cursor: pointer;
+    padding: 13px 41px;
+    text-align: center;
+    border-radius: 50px;
+    outline: none;
+    text-decoration: none !important;
+    list-style-type: none;
+
+    &:hover {
+        color: $white;
+        background: linear-gradient(to right, #ff6357 0%, $pink-button 100%);
+        transition: linear 0.6s all;
+    }
+}
+
+@import "./header";
+@import "./home";
+@import "./footer";
