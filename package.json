@@ -225,7 +225,7 @@
     "semver": "^5.7.1",
     "semver-greatest-satisfied-range": "^1.1.0",
     "set-blocking": "^2.0.0",
-    "set-value": "^2.0.1",
+    "set-value": "^4.0.1",
     "snapdragon": "^0.8.2",
     "snapdragon-node": "^2.1.1",
     "snapdragon-util": "^3.0.1",
